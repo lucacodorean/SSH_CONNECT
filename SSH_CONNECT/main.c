@@ -1,8 +1,5 @@
 #include "helper.h"
 
-char* alloc_string(unsigned int);
-char* build_command(SSH_CONNECTION_DETAILS*);
-
 int main(int argc, char** argv) {
 
     if(argc != 2) return custom_return(INVALID_PARAMETERS_ERROR, __LINE__);
